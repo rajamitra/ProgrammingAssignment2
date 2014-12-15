@@ -31,6 +31,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## the matrix passed as argument and retrn it. 
 ##If the inverse is not caluculated.
 ##It will calculate the inverse and return it. 
+## This code assumes that the matrix passed in is a square matrix
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
